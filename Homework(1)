@@ -1,0 +1,24 @@
+1. Working with the following set of Integers S = {0,1,2,3,4,5,6}
+What is
+a) 4 + 4
+b) 3 x 5
+c) what is the inverse of 3 ?
+
+a => 8 (lies outside S)
+b => 15 (lies outside S)
+c => Inverse doesnot exist with given set of integers.
+
+2. For S = {0,1,2,3,4,5,6}
+Can we consider 'S' and the operation '+' to be a group ?
+
+ans=> S is not closed under addition. eg: for 4 + 4 = 8 (does not belong to S) so not a group.
+
+3. What is -13 mod 5 ?
+
+ans => 2
+
+4.For the polynomial
+Find a the positive root ?
+What is the degree of this polynomial ?
+ ans=> 3
+ ans=> degree = 3
