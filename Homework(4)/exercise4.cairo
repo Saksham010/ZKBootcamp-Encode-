@@ -1,4 +1,4 @@
-%builtins output
+//%builtins output
 
 // Import the serialize_word() function.
 from starkware.cairo.common.serialize import serialize_word
@@ -14,6 +14,9 @@ func calculate_sum(n: felt) -> (sum: felt) {
 
 func main{output_ptr: felt*}() {
     let (z) = calculate_sum(5);
-    serialize_word(z);
+    //serialize_word(z);
+    %{ 
+    	print(z)
+    %}
     return ();
 }
